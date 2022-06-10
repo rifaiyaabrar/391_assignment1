@@ -1,0 +1,195 @@
+
+body{
+ 
+    background-color: #B689C0;
+    color:#664a76;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior:auto;
+    padding: auto;
+    
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Lemonada', cursive;
+    /* text-align: center; */
+}
+
+li, a{
+ font-size: large;
+ color: #EEEEEE;
+}
+h2{
+    color: #664a76;
+    padding-left: 80px;
+}
+.nav{
+    background-color:#664a76;
+    padding: auto;
+    margin-bottom: 50px;
+    /* border-radius: 50px; */
+    text-align: center;
+    min-height: 30px;
+    
+
+}
+/* .colorlist{
+  color: #664a76;
+} */
+.nav li{
+    display: inline-block;
+    padding: 20px 20px;
+    transition: .5s;
+}
+
+.nav li a{
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: #947EC3;
+    transition: .5s;
+    
+    
+}
+
+    
+.nav2{
+    padding-left: 10%;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    transition: 1.3s;
+    
+    
+
+
+}
+
+.nav2 li{
+    font-size: large;
+    display: inline-block;
+    
+}
+
+
+
+.header{
+    font-size: 40px;
+}
+
+
+.section{
+    
+
+    margin: 70px;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+    
+}
+
+h3{
+    text-align: center;
+    padding: 0%;
+    border: 0ch;
+    
+}
+
+
+td{
+    /* padding-top: 100px; */
+    margin-top: 100px;
+}
+.spacer{
+    height: 150px;
+}
+.text-box{
+    border: 5px solid #373A40;
+    background-color: #664a76;
+    color: #EEEEEE;
+    padding: 30px ;
+    border-radius: 20px;
+}
+.hobby1{
+    width: 50%;
+    float: left;
+    margin-left: 100px;
+
+}
+.hobby2{
+    width: 100%;
+    float: right;
+    margin-right: 0px;
+
+}
+.game{
+    border: 5px solid #373A40;
+    background-color: #664a76;
+    color: #EEEEEE;
+    padding: 30px ;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+   
+}
+
+.game p{
+    padding-left: 40px;
+
+}
+
+ p2{
+   
+   
+   
+    font-size: 30px;
+}
+
+
+
+
+
+.script{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+
+
+.coderboy{
+    text-align: center;
+}
+.quote{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+
+
+
+.logo{
+    width: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s ease-in ;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.size{
+    height: 500px;
+}
